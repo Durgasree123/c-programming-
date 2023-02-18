@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n,k,i,evensum=0,oddsum=0;
+printf("enter any number");
+scanf("%d",&n);
+printf("enter upto given range");
+scanf("%d",&k);
+for(i=1;i<=m;i++)
+{
+if(i%n==0)
+{
+printf("%d\t",i);
+{
+if(i%2==0)
+evensum=evensum+i;
+else
+oddsum=oddsum+i;
+}
+}
+}
+printf("sum of even=%d",evensum);
+printf("\nsum of odd=%d",oddsum);
+getch();
+}
